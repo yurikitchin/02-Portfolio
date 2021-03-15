@@ -134,3 +134,41 @@ main {
     margin-left: -5px;
 }
 
+/*Links to other pages*/
+
+#links {
+    margin: 50px 0px;
+    padding: 25px;
+    width: 100%;
+    background-color: rgba(96, 114, 218, 0.835);
+    display: flex;
+    justify-content: space-around;
+}
+
+#links li {
+    display: inline-block;
+
+    
+}
+
+#links li a {
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+
+#github {
+    height: 35px;
+    width: 35px;
+}
+
+#instagram {
+    height: 35px;
+    width: 35px;
+}
+
+#facebook {
+    height: 35px;
+    width: 35px;
+}
+
