@@ -1,0 +1,46 @@
+/* Header Code*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    z-index: 1;
+    background-color: rgba(96, 114, 218, 0.835);
+    padding: 20px;
+    color: rgb(243, 237, 237);
+}
+
+header img {
+    display: inline-block;
+    height: 80px;
+    width: auto;
+
+}
+
+#site {
+    color:#76777F ;
+}
+
+
+header section {
+    height: auto;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 10px;
+    
+    
+}
+
+header section ul li{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+header a {
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+}
