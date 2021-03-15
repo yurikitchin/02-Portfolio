@@ -49,3 +49,88 @@ main {
     border-right: solid 5px black;
 }
 
+/*code for refactoring assignment, makes picture a link*/
+#refactor {
+    grid-area: refactor;
+    display: block;
+    background-image: url(../images/refactor-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    border: solid 5px rgb(63, 153, 238);
+}
+
+.gridContainer #refactor #titleRef {
+    background: rgb(63, 153, 238);
+    border: solid 5px rgb(63, 153, 238);
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+    margin-top: 525px;
+    margin-left: -5px;
+
+}
+
+/*code for mini assignment week1, makes picture a link*/
+#mini1 {
+    grid-area: mini1;
+    display: block;
+    background-image: url(../images/mini1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(63, 63, 209, 0.835);
+    text-decoration: none;
+    border: solid 5px rgb(63, 153, 238);
+}
+
+.gridContainer #mini1 #titleMin1 {
+    background: rgb(63, 153, 238);
+    border: solid 5px rgb(63, 153, 238);
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+    margin-top: 750px;
+    margin-left: -5px;
+}
+
+/*code for mini assignment week2, makes picture a link*/
+#mini2 {
+    grid-area: mini2;
+    display: block;
+    background-image: url(../images/01-app-desktop.png);
+    background-size: cover;
+    text-decoration: none;
+    border: solid 5px rgb(63, 153, 238);
+}
+
+.gridContainer #mini2 #titleSnip {
+    background: rgb(63, 153, 238);
+    border: solid 5px rgb(63, 153, 238);
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+    margin-top: 275px;
+    margin-left: -5px;
+}
+
+/*code for scratch assignment prework, makes picture a link*/
+#scratch {
+    grid-area: scratch;
+    display: block;
+    background-image: url(../images/scratchthecat.png);
+    background-size: cover;
+    text-decoration: none;
+    border: solid 5px rgb(63, 153, 238);
+}
+
+.gridContainer #scratch #titleScratch {
+    background: rgb(63, 153, 238);
+    border: solid 5px rgb(63, 153, 238);
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+    margin-top: 275px;
+    margin-left: -5px;
+}
+
