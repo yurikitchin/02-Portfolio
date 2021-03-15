@@ -64,13 +64,15 @@ main {
     border-right: solid 5px black;
 }
 
+
+
 /*code for refactoring assignment, makes picture a link*/
 #refactor {
     grid-area: refactor;
     display: block;
     background-image: url(../images/refactor-image.png);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     text-decoration: none;
     border: solid 5px rgb(63, 153, 238);
 }
@@ -84,6 +86,10 @@ main {
     margin-top: 525px;
     margin-left: -5px;
 
+}
+
+main a:hover {
+    opacity: 0.75;
 }
 
 /*code for mini assignment week1, makes picture a link*/
