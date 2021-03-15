@@ -253,3 +253,38 @@ input {
     list-style-type: none;
     line-height: 2.5em
 }
+
+/*Media Queries and responsiveness*/
+@media screen and (max-width: 768px) {
+    main {
+    grid-gap: 25px;
+    grid-template-columns: 12.5% 40% 40%;
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-areas: 
+    "abouttitle abouttitle"
+    "paragraph paragraph"
+    "worktitle worktitle"
+    "refactor refactor"
+    "mini1 mini1"
+    "mini2 mini2"
+    "scratch scratch"
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    main {
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: 
+    "abouttitle"
+    "paragraph"
+    "worktitle"
+    "refactor"
+    "mini1"
+    "mini2"
+    "scratch"
+
+    }
+  }
+
