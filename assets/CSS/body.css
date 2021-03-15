@@ -1,3 +1,18 @@
+/*full doument stylings, scroll behavior and padding to fix link issues, font family and vh sizing for Responsiveness*/
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vh;
+}
+
+h2 {
+    font-size: 4.0vh;
+}
+
 /*intro image to page*/
 #top-image{
     width: 100%;
