@@ -44,3 +44,12 @@ header a {
     color: rgb(243, 237, 237);
     text-decoration: none;
 }
+
+/*Footer Code*/
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
