@@ -6,3 +6,20 @@
     background-image: url(../images/top-image.jpg);
     background-size: cover;
 }
+
+/*about me section*/
+#self {
+    height: 150px;
+    width: auto;
+    padding-right: 8px;
+}
+
+#abouttitle {
+    grid-area: abouttitle;
+    border-right: solid 5px black;
+}
+
+#para {
+    grid-area: paragraph;
+}
+
