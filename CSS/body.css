@@ -7,6 +7,26 @@
     background-size: cover;
 }
 
+/*grid area and formating */
+main {
+    max-width: 100%;
+    padding-top: 50px;
+    margin: 0;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 12.5% 40% 40%;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas: 
+    "abouttitle paragraph paragraph"
+    "worktitle refactor refactor"
+    "worktitle refactor refactor"
+    "worktitle refactor refactor"
+    "worktitle mini2 mini1"
+    "worktitle mini2 mini1"
+    "worktitle scratch mini1"
+    "worktitle scratch mini1";
+}
+
 /*about me section*/
 #self {
     height: 150px;
@@ -21,5 +41,11 @@
 
 #para {
     grid-area: paragraph;
+}
+
+/*work sub section*/
+#workTitle {
+    grid-area: worktitle;
+    border-right: solid 5px black;
 }
 
