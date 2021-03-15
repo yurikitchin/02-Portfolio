@@ -172,3 +172,84 @@ main {
     width: 35px;
 }
 
+/*contact info and function*/
+.contact-info {
+    border: 1px solid blue;
+    background-color: rgba(96, 114, 218, 0.507);
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.contact-info form label input{
+    display: block;
+    justify-content: center;
+    display: table-cell;
+    line-height: 1.5;
+}
+
+form {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 5px 15px;
+    
+}
+input[type=text] textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc 
+    
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color:#45a049 ;
+}
+
+p {
+    display: table-row;
+    
+}
+
+label {
+    display: table-cell;
+    vertical-align: top;
+    
+}
+input {
+    display: table-cell;
+   
+}
+
+#email {
+    width: 400px;
+}
+
+#name {
+    width: 400px;
+}
+
+#msg {
+    height: 150px;
+    width: 400px;
+}
+
+.image {
+    text-align: center;
+}
+
+#contact-list {
+    list-style-type: none;
+    line-height: 2.5em
+}
