@@ -199,7 +199,7 @@ main a:hover {
     background-color: rgba(96, 114, 218, 0.507);
     width: 100%;
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -307,5 +307,5 @@ input {
     "scratch"
 
     }
-  }
+}
 
