@@ -294,7 +294,12 @@ input {
   
   @media screen and (max-width: 480px) {
     main {
-    grid-gap: 10px;
+        display: block;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    /*grid-gap: 10px;
     grid-template-columns: auto;
     grid-auto-rows: minmax(50px, auto);
     grid-template-areas: 
@@ -306,6 +311,5 @@ input {
     "mini2"
     "scratch"
 
-    }
+    }*/
 }
-
