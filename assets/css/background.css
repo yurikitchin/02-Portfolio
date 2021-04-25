@@ -1,0 +1,28 @@
+#background-img {
+    background: url(../images/richard-dykes-SPuHHjbSso8-unsplash.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.4;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -2;
+    }
+
+#triangle {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to top right,  #34a0a4ff 0%, #76c893ff 50%, transparent 50%, transparent 100%);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
