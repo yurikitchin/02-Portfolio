@@ -27,6 +27,9 @@ form input{
     margin-bottom: 15px;
     padding: 5px;
 }
+form input:hover {
+    border-color: #1a759fff;
+}
 
 form textarea {
     border-radius: 10px;
@@ -35,11 +38,42 @@ form textarea {
     padding: 5px;
 }
 
+form textarea:hover {
+    border-color: #1a759fff;
+}
+
 form button {
     border-radius: 30px;
     padding: 10px;
 }
 
+form button:hover {
+    border-color: #1a759fff;
+}
+
 body h1 {
  text-align: center;
+ font-size: 90px;
+ font-weight: 900;
+ margin-top: 0;
+ margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+nav li {
+    align-items: center;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    position: absolute;
+    top: 12%
 }
