@@ -18,10 +18,16 @@ main {
 div {
     position: relative;
 }
+a div {
+    transition: transform .7s ease-in-out;
+}
+
+a div:hover {
+    transform: rotate(5deg);
+}
 
 div h3 {
     position: absolute;
-    width: 100px;
     text-align: center;
     z-index: 2;
     top: 200px;
@@ -33,8 +39,9 @@ span {
     color: aliceblue;
     padding: 10px;
     border-radius: 100px;
-    display: none;
 }
+
+
 #dashboard {
     grid-column: 2;
     grid-row: 3;
@@ -49,6 +56,7 @@ span {
     margin-left: 25px;
     margin-top: 15px;
     transform: rotate(20deg);
+    z-index: 1;
    }
 
 #passwordGen{
