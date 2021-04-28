@@ -1,3 +1,5 @@
+//nav button sourced from https://codepen.io/Acts7/pen/Azloh
+
 $(function() {
   var button = $("#cn-button"),
       wrapper = $("#cn-wrapper"),
