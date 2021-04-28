@@ -18,11 +18,15 @@ main {
 div {
     position: relative;
 }
+ div img {
+     width: 100%;
+ }
 a div {
     transition: transform .7s ease-in-out;
 }
 
 a div:hover {
+    z-index: 3;
     transform: rotate(5deg);
 }
 
@@ -34,7 +38,7 @@ div h3 {
     bottom: 0;
 
 }
-span {
+.mainText {
     background-color: #1a759fff;
     color: aliceblue;
     padding: 10px;

@@ -1,0 +1,50 @@
+.navLink {
+    text-decoration: none;
+    color: #34a0a4ff;
+    background: #1e6091ff;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    transition: width 0.5s;
+}
+
+.menuText {
+    max-width: 0;
+    display: inline-block;
+    transition: color .25s 1.5s, max-width 1.5s;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.navLink:hover .menuText {
+    max-width: 300px;
+}
+
+.navBtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bold;
+    color: azure;
+    transition: 0.24s 0.2s;
+    z-index: 1;
+    display: inline-block
+}
+
+.navBtn .menu {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.navBtn .menu li {
+    display: inline-block;
+}

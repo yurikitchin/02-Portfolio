@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">   
     <link rel="stylesheet" type="text/css" href="./assets/css/background.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navBar.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
-    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+    <title>Yuri Kitchin</title>
 </head>
 <body>
     <div id='background-img'> </div>
     <div id="triangle"></div>
-
     <main>
         <img id="profile" src="./assets/images/profilePic.jpg">
 
@@ -20,6 +28,30 @@
             <h3>Gratis Javelin</h3>
             <h2>Full Stack Web Development</h2>
         </section>
-    </main>
+
+    </main> 
+    <nav class="navBtn">
+        <ul class="menu">
+            <li>
+                <a class="navLink" href="./aboutme.html">
+                    <span><i class="far fa-address-card"></i></span>
+                    <span class="menuText">About Me</span>
+                </a>
+            </li>
+            <li>
+                <a class="navLink" href="./portfolio.html">
+                    <span><i class="far fa-folder-open"></i></span>
+                    <span class="menuText">Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a class="navLink" href="./contact.html">
+                    <span><i class="fas fa-envelope-open-text"></i></span>
+                    <span class="menuText">Get in Touch</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
 </body>
 </html>

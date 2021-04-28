@@ -4,6 +4,7 @@
 }
 
 #text h1 {
+    font-family: 'Pacifico', cursive;
     font-size: 90px;
     font-weight: 1000;
     margin-top: 0;
@@ -16,6 +17,7 @@
  margin-bottom: 10px;
 }
 #text h2 {
+    font-family: 'Pacifico', cursive;
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
@@ -30,22 +32,31 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 0;
 }
 
 main img, main section {
     display: inline-block;
     margin: 1em;
 }
+body{
+    overflow: hidden;
+}
 
-/* #a48d01
-#a48d01
---key-lime: #d9ed92ff;
---yellow-green-crayola: #b5e48cff;
---granny-smith-apple: #99d98cff;
---ocean-green: #76c893ff;
---keppel: #52b69aff;
---viridian-green: #34a0a4ff;
---blue-munsell: #168aadff;
---celadon-blue: #1a759fff;
---lapis-lazuli: #1e6091ff;
---yale-blue: #184e77ff; */
+
+
+
+
+
+bodycolourScheme {
+ color: #d9ed92ff; /*key-lime*/
+ color: #b5e48cff; /*yellow-green-crayola*/
+ color: #99d98cff; /*granny-smith-apple*/
+ color: #76c893ff; /*ocean-green*/
+ color: #52b69aff; /*keppel*/
+ color: #34a0a4ff; /*-viridian-green*/
+ color: #168aadff; /*blue-munsell*/
+ color: #1a759fff; /*celadon-blue*/
+ color: #1e6091ff; /*lapis-lazuli*/
+ color: #184e77ff; /*yale-blue*/
+}
