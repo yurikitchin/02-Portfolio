@@ -32,12 +32,13 @@
 
             <img src="./assets/images/emailIcon.png" style="width: 400px;">
         
-            <form>
-                <input type="text" id="firstName" placeholder="First Name">
-                <input type="text" id="lastName" placeholder="Last Name">
-                <input type="text" id="email" placeholder="Email">
-                <textarea id="userMessage" id="emailMsg" placeholder="Write your message here!" style="resize: none;"></textarea>
-                <button type="submit" id="submitEmail">Email Me</button>     
+            <form  action="mailto:ykitchin@gmail.com?subject=Website-Get-In-Touch" method="post" enctype="text/plain">
+                <input type="text" id="firstName" name="First Name" placeholder="First Name">
+                <input type="text" id="lastName" name="Last Name" placeholder="Last Name">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <textarea id="userMessage" id="emailMsg" name="Messgae" placeholder="Write your message here!" style="resize: none;"></textarea>
+                <input id="submitEmail" type="submit" value="Email Me">
+                <!-- <button type="submit" id="submitEmail" value="send">Email Me</a></button>      -->
             </form>
         </div>
 
@@ -49,8 +50,8 @@
             <li><a href="./index.html"> <i class="fas fa-home"></i>        </a></li>
             <li><a href="./aboutme.html"> <i class="far fa-address-card">     </i> </a></li>
             <li><a href="./portfolio.html"> <i class="far fa-folder-open"></i>      </a></li>
-            <li><a href="#"> <i class="fas fa-envelope-open-text"></i>     </i></a></li>
-            <li><a href="#"> <i class="fas fa-file-pdf"></i>    </i></a></li>
+            <li><a href="#"> <i class="fas fa-envelope-open-text"></i>     </a></li>
+            <li><a href="./assets/downloads/ykResume.pdf" download="Yuri Kitchin-Resume"> <i class="fas fa-file-pdf"></i> </a></li>
         </ul>
      </div>
      <div id="cn-overlay" class="cn-overlay on-overlay"></div>
