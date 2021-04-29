@@ -81,8 +81,10 @@ body{
 
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 50vh 50vh;
+        margin-left: -100px;
+        margin-bottom: 70px;
     }
     
     #profile {

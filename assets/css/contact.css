@@ -1,3 +1,4 @@
+
 main {
     position: fixed;
     top: 0;
@@ -81,4 +82,42 @@ body h1 {
 
 .navBtn .menu{
     margin-bottom: 35px;
+}
+
+
+
+@media only screen and (max-width: 667px) {
+    #wrapper {
+        width: auto;
+    }
+    #wrapper img {
+        display: none;
+    }
+    main h1 {
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        font-size: 40px;
+    }
+    #links{
+        width: 150px;
+    }
+    form {
+        width: 350px;
+    }
+}
+
+
+@media only screen and (min-width: 668px) and (max-width: 768px) {
+    #wrapper {
+        width: auto;
+    }
+    #wrapper img {
+        display: none;
+    }
+    form {
+    width: 452px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    }
 }
