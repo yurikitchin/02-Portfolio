@@ -54,7 +54,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 668px) and (max-width: 768px) {
     main {
         display: grid;
         grid-template-columns: 50vw 50vw;
